@@ -7,16 +7,19 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pseudoDjnn/jest-another-rpg.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pseudoDjnn/jest-another-rpg/issues"
   },
-  "homepage": "https://github.com/pseudoDjnn/jest-another-rpg#readme"
+  "homepage": "https://github.com/pseudoDjnn/jest-another-rpg#readme",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
 }
