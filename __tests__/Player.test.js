@@ -79,7 +79,7 @@ test("adds potion to inventory", () => {
 
   player.addPotion(new Potion());
 
-  expect(player.inventory.length).toBeGreaterThanOrEqual(oldCount);
+  expect(player.inventory.length).toBeGreaterThan(oldCount);
 });
 
 test("uses potion in inventory", () => {
